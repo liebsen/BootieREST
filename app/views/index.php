@@ -4,10 +4,10 @@
 	</div>
 	<?php if(count($routes)):?>
         <ul>
-        <?php foreach($routes as $route):?>
+        <?php foreach($routes as $url => $route):?>
             <li>
-                <a href="/blog/">
-                	<?php echo $route->class;?>
+                <a href="<?php echo $url;?>">
+                	<?php echo $route->request_method?:'GET';?> <?php echo $url;?>
                 </a>
             </li>
         <?php endforeach;?>
