@@ -12,7 +12,7 @@ class PostController extends \Controller\BaseController {
 			'id' => 'DESC'
 		]);
 
-		return print json_encode($entries);
+		return \Bootie\App::ajax($entries);
 	}
 
 	public function create(){
