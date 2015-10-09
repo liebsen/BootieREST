@@ -1,8 +1,12 @@
 <h1><i class='ion-ios-gear'></i> Bootie</h1>
 
-<p>PHP 5 Micro Web Application Framework</p>
-<p>Based on Micromvc by David Pennington</p>
+<h3>PHP 5 Micro Web Application Framework</h3>
+<h5>Based on Micromvc by David Pennington</h5>
+<p>This is a Bootie Framework REST Example Project</p>
 <p>You can see an <a href="http://bootie.devmeta.net">online demo of this project here</a></p>
+<p>You can see an <a href="https://github.com/martinfree/BootieProject">integrated example project</a></p>
+<p>You can also clone a <a href="https://github.com/martinfree/BootieScheleton">scheleton project</a></p>
+
 <hr>
 <h2>Improvements</h2>
 <ul>
