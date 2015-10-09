@@ -1,9 +1,17 @@
 {
 	"name": "bootie/rest",
-	"type": "library",
-	"description": "Tiny PHP 5 REST Example",
-	"keywords": ["php","mvc"],
+	"type": "project",
+	"description": "Tiny PHP 5 REST Project Example",
+	"keywords": ["php","mvc","framework"],
 	"homepage": "http://devmeta.net",
+    "authors": [
+        {
+            "name": "Martin Free",
+            "email": "martin@devmeta.net",
+            "homepage": "http://devmeta.net",
+            "role": "Developer"
+        }
+	],	
 	"license": "MIT",
 	"require": {
 		"php": ">=5.3.0",
