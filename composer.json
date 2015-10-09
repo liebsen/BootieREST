@@ -1,7 +1,7 @@
 {
 	"name": "bootie/rest",
 	"type": "project",
-	"description": "Tiny PHP 5 REST Project Example",
+	"description": "Bootie PHP 5 Framework REST Example Project",	
 	"keywords": ["php","mvc","framework"],
 	"homepage": "http://devmeta.net",
 	"license": "MIT",
