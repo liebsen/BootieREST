@@ -9,7 +9,7 @@ $db = null;
 
 try 
 {
-	$app->handle(PATH);
+	$app->run(PATH);
 } 
 catch (Exception $e) 
 {
