@@ -41,8 +41,6 @@ class FileController extends \Controller\BaseController {
 
 		extract($_POST);
 
-		var_dump($_POST);
-
 		if( is_numeric($id) ){
 
 			$file = \Model\File::row([
